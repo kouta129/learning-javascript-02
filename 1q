@@ -1,0 +1,13 @@
+// FizzBuzz
+
+// サンプル: "1" という文字列を出力
+console.log("1");
+
+// サンプル: "FizzBuzz" という文字列を出力
+// (process.stdout.write で改行なしの出力ができる)
+for ( var i = 0; i < 16; i++ ){
+console.log(i)
+process.stdout.write("Fizz");
+process.stdout.write("Buzz");
+console.log();
+}
